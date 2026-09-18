@@ -3,7 +3,7 @@ titulo: Pendientes de arranque del repositorio
 area: Gobernanza
 responsable: Omar
 estado: vigente
-version: 1.1
+version: 1.2
 actualizado: 2026-09-18
 ---
 
@@ -131,6 +131,22 @@ El plan de acción del plan maestro ya fija las prioridades. Esta lista sigue es
 - [ ] Procedimiento de arqueo y control de caja →
       [`03-auditoria-y-control/caja/`](../03-auditoria-y-control/caja/).
 - [ ] Línea base: primera ronda de auditorías OER en las 7 tiendas.
+
+### Optimización del CDP (encargo de Cristian)
+
+- [ ] Completar el [diagnóstico del CDP](../02-operaciones/produccion/diagnostico-cdp-caracas.md)
+      con lo levantado en la visita del 18/09.
+- [ ] **Rescatar los registros de despacho CDP → tienda de las últimas 8 semanas.** Es lo que
+      permite montar el modelo de planificación sin esperar la API.
+- [ ] Levantar o corregir las fichas técnicas de los productos del CDP.
+- [ ] Construir el patrón de demanda por tienda y día de semana.
+- [ ] Segunda visita al CDP en día bajo (lunes o martes), para contrastar con el viernes.
+- [ ] Visita de levantamiento al CDP Oriente con la misma guía.
+- [ ] **Antes de que Cristian solicite la API de Cetux:** pasarle la lista de lo que hay que
+      pedir (ventas por SKU, movimientos con motivo e histórico de 12 meses hacia atrás, no
+      solo saldos actuales). Ver
+      [modelo de planificación](../02-operaciones/produccion/modelo-de-planificacion-de-produccion.md),
+      sección 3.
 
 ### Expansión
 

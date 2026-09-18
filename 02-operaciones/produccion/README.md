@@ -3,6 +3,14 @@
 Producción de **tienda** y del **centro de producción**. El objetivo declarado del área:
 que las producciones de ambos sean las más óptimas.
 
+## Documentos
+
+| Documento | Para qué sirve |
+|---|---|
+| [`modelo-de-planificacion-de-produccion.md`](modelo-de-planificacion-de-produccion.md) | El marco de optimización del CDP: la cadena de planificación, qué pedirle a la API de Cetux, la ruta por fases y los indicadores. |
+| [`guia-levantamiento-cdp.md`](guia-levantamiento-cdp.md) | Instrumento de campo para la visita de diagnóstico a un CDP. Sirve para las dos unidades. |
+| [`diagnostico-cdp-caracas.md`](diagnostico-cdp-caracas.md) | Resultado de la visita del 18/09/2026. |
+
 ## Qué va aquí
 
 - Fichas técnicas de producto (receta, gramaje, rendimiento, tiempo, costo).
