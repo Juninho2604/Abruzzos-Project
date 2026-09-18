@@ -11,6 +11,7 @@ que las producciones de ambos sean las más óptimas.
 | [`guia-levantamiento-cdp.md`](guia-levantamiento-cdp.md) | Instrumento de campo para la visita de diagnóstico a un CDP. Sirve para las dos unidades. |
 | [`guion-entrevista-jefe-cdp.md`](guion-entrevista-jefe-cdp.md) | Guion de entrevista al Jefe de CDP: 55 preguntas en ocho bloques, con las técnicas para que suelte lo que no está escrito en ningún lado. |
 | [`diagnostico-cdp-caracas.md`](diagnostico-cdp-caracas.md) | Resultado de la visita del 18/09/2026. |
+| [`notas-entrevista-jefe-cdp-2026-09-18.md`](notas-entrevista-jefe-cdp-2026-09-18.md) | Notas de la entrevista al Jefe de CDP, con el análisis del método de planificación actual. |
 | [`analisis-planilla-inventario.md`](analisis-planilla-inventario.md) | Revisión del formato de conteo de Xetux: nueve hallazgos, qué revela el catálogo sobre el CDP y propuesta de planilla corregida. |
 
 ## Qué va aquí

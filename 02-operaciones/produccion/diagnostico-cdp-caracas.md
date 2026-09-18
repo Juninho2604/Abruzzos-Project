@@ -118,17 +118,29 @@ planta:
 
 ## 4. Cómo se planifica hoy
 
-<!-- El bloque central. Quién decide qué producir, con base en qué, con cuánta anticipación.
-     Si la respuesta es "por experiencia", decirlo tal cual: no es una crítica, es el punto de
-     partida. -->
+Levantado en la entrevista al Jefe de CDP. Respuesta textual y análisis completo en
+[`notas-entrevista-jefe-cdp-2026-09-18.md`](notas-entrevista-jefe-cdp-2026-09-18.md).
 
 | Pregunta | Situación actual |
 |---|---|
-| Quién decide cuánto producir | |
-| Con base en qué | |
-| Anticipación con que se sabe | |
-| Formato del pedido de tienda | |
-| Registro de plan vs. producido | |
+| Quién decide cuánto producir | El Jefe de CDP, cada mañana |
+| Con base en qué | **Lo que quedó en nevera el día anterior.** Revisa existencias, masas viejas y topping viejo, cuenta todo y calcula la reposición |
+| Anticipación con que se sabe | Un día: se cuenta hoy y se produce para mañana |
+| ¿Se considera el día de la semana? | **Por confirmar** — no apareció en la descripción del método |
+| Formato del pedido de tienda | Por levantar |
+| Registro de plan vs. producido | Por levantar. **Existe conteo diario; falta saber si se archiva** |
+
+### El hallazgo
+
+El método actual es **reposición de inventario, no planificación de producción**: repone lo
+consumido asumiendo que mañana se consumirá lo mismo que ayer. En una demanda con pico de
+viernes y sábado, eso produce corto para el fin de semana y de más para el inicio de la semana
+— merma y quiebres a la vez, de forma estructural.
+
+No es un problema de ejecución: el método es disciplinado y se aplica todos los días. Le falta
+un insumo, el de demanda futura. La corrección no pasa por cambiar el método sino por
+**agregarle una columna**: junto a lo que quedó, lo que se despachó el mismo día de la semana
+anterior.
 
 ---
 
@@ -162,15 +174,48 @@ anotar aquí el conflicto)_
 
 | Cargo | Plan maestro | Real hoy | Diferencia |
 |---|---|---|---|
-| Jefe de CDP | 1 | | |
-| Cocinero Experto | 3 | | |
-| Ayudante de Cocina | 10 | | |
-| **Total** | **14** | | |
+| Jefe de CDP | 1 | _¿incluido en los 11?_ | |
+| Cocinero Experto | 3 | _por desglosar_ | |
+| Ayudante de Cocina | 10 | _por desglosar_ | |
+| **Total** | **14** | **11** | **−3** |
 
 <!-- Cifras del plan maestro para CDP Caracas. Para CDP Oriente son 1 / 3 / 6 = 10. -->
 
-**Observaciones de turno:** _(picos, horas muertas, escalonamiento contra la curva de
-producción)_
+### Horarios
+
+| Horario | Personas | Jornada |
+|---|---|---|
+| 9:00 a.m. – 9:00 p.m. | 10 | **12 horas** |
+| 2:00 p.m. – 9:00 p.m. | 1 | 7 horas |
+
+**Jornada de 12 horas.** Dos frentes distintos:
+
+- **Cumplimiento laboral:** excede la jornada ordinaria y supone horas extra sistemáticas. Hay
+  que revisarlo con quien tenga la competencia — corresponde al área de control de Adalberto,
+  no a la operativa.
+- **Productividad:** las últimas horas de una jornada de 12 rinden mucho menos. Si además hay
+  estaciones con poca carga real, se está pagando presencia y no producción.
+
+**Contradice el Plan Maestro**, que dimensiona el CDP con turnos de 8 horas. Y la brecha de
+dotación (−3 personas) sugiere una hipótesis a verificar: **que las 12 horas sean el parche con
+el que se cubre la falta de gente.** Si es así, migrar a 8 horas obliga a contratar, y ese costo
+tiene que estar en el número.
+
+### Estaciones
+
+| Estación | Personas | Qué hace |
+|---|---|---|
+| Masas | 3 | |
+| Jamón | 1 | Rebana y porciona |
+| Tocineta | _por confirmar_ | Rebana y porciona |
+| Pepperoni · Nutella · Maíz · Aceituna | _por confirmar_ | Porcionan |
+| Pecorino | _por confirmar_ | |
+| Salsas especiales | _por confirmar_ | 7 salsas: romesco, ajo, mayo pesto, mayo bacon, piña, miel picante, mayo champiñones |
+| Salsa para pizza | _por confirmar_ | |
+
+**Carmelo** hace los despachos y al regresar se incorpora a producción — punto de control
+interno (quien despacha también produce) y de capacidad (su estación queda descubierta mientras
+está fuera).
 
 ---
 
