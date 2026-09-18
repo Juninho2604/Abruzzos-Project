@@ -109,3 +109,7 @@ git pull origin main
 ```
 
 La mitad de los conflictos se evitan con esto.
+
+> Mientras la rama principal no se haya renombrado a `main` (ver
+> [`pendientes-de-arranque.md`](pendientes-de-arranque.md)), sustituye `main` por el nombre
+> que aparece como rama por defecto en GitHub.

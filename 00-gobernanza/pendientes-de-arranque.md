@@ -11,6 +11,18 @@ actualizado: 2026-09-18
 
 Lo que falta para que el repositorio quede completamente operativo. Se va tachando.
 
+## Lo primero: renombrar la rama principal
+
+El repositorio se inauguró estando vacío, así que la rama con la que se subió todo quedó
+como rama principal por defecto, con un nombre que no sirve para eso a largo plazo.
+
+- [ ] Renombrar la rama principal a `main`:
+      **Settings → Branches → junto a la rama, el ícono de lápiz → escribir `main` → Rename branch.**
+
+GitHub conserva todo el historial y no se pierde nada. A partir de ahí, la rama principal
+se llama `main` y las ramas de trabajo se abren desde ella, como dice
+[`forma-de-trabajo.md`](forma-de-trabajo.md).
+
 ## Accesos
 
 - [ ] Invitar a **Adalberto** como colaborador del repositorio
