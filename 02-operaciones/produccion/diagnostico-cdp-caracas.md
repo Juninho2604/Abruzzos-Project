@@ -38,7 +38,14 @@ Levantado con la [guía de levantamiento](guia-levantamiento-cdp.md).
 
 ### Cómo se ejecutó
 
-<!-- Qué se contó, quién contó, cuánto tardó, cómo se registró. -->
+Formato impreso desde **Xetux**, dos páginas, ~100 ítems. Tomado por Omar Moya.
+
+Evidencia:
+[página 1](../../recursos/imagenes/2026-09-18-planilla-inventario-apertura-cdp-p1.jpg) ·
+[página 2](../../recursos/imagenes/2026-09-18-planilla-inventario-apertura-cdp-p2.jpg)
+
+<!-- Completar: quién contó físicamente, cuánto tardó, a qué hora, si entró producción durante
+     el conteo. -->
 
 ### Resultado del conteo
 
@@ -48,17 +55,24 @@ Levantado con la [guía de levantamiento](guia-levantamiento-cdp.md).
 
 ### Evaluación del instrumento
 
-<!-- La planilla de críticos: ¿cubre lo que tiene que cubrir? ¿El método de conteo es
-     confiable? Ver bloque A de la guía. -->
+Análisis completo en [`analisis-planilla-inventario.md`](analisis-planilla-inventario.md).
+Resumen de los hallazgos:
 
-| Punto | Observación | Gravedad |
+| # | Hallazgo | Gravedad |
 |---|---|---|
-| Criterio de selección de productos críticos | | |
-| Unidades de medida | | |
-| Independencia de quien cuenta | | |
-| Conteo a ciegas o con saldo a la vista | | |
-| Tratamiento del producto en proceso | | |
-| Qué se hace con las diferencias | | |
+| H1 | El campo "CORRESPONDIENTE AL" está en blanco: el conteo no identifica fecha ni hora | Alta |
+| H2 | El formato se imprimió el 27/07/26, 53 días antes del conteo | Media |
+| H3 | No es planilla de críticos: trae el catálogo completo (~100 ítems, incluye consumibles) | Alta |
+| H4 | Nueve bebidas distintas comparten el código `XPBOD26050001` | Alta |
+| H5 | Separador decimal ambiguo en las cantidades escritas a mano | Alta |
+| H6 | Doble anotación de la cantidad (al margen y en la columna) | Media |
+| H7 | La celda vacía no distingue "cero" de "no contado" | Media |
+| H8 | Solo hay "tomado por": sin verificador, sin hora de inicio ni cierre | Media |
+| H9 | Unidad de medida inconsistente en productos de la misma familia (aceite de oliva) | Media |
+
+**Lo que sí está bien resuelto:** la planilla **no trae el saldo teórico**. El conteo se hace a
+ciegas y el contraste con Xetux viene después. Es el control más importante del formato y está
+correcto.
 
 ---
 
@@ -66,9 +80,23 @@ Levantado con la [guía de levantamiento](guia-levantamiento-cdp.md).
 
 ### Qué produce el CDP
 
+Identificado desde el catálogo de Xetux (ítems con prefijo `XSUB`), pendiente de confirmar en
+planta:
+
 | Producto | Estaciones del proceso | Tiempo total | Vida útil |
 |---|---|---|---|
-| | | | |
+| Masa para pizza 380 g | | | |
+| Harina para estirar | | | |
+| Salsa para pizza passata | | | |
+| Salsa para pizza tomate pelado | | | |
+| Salsas mayo (ajo rostizado, bacon, champiñones, pesto) | | | |
+| Salsa de piña · miel picante · romesco | | | |
+| Cebolla caramelizada · mantequilla de ajo | | | |
+| Procesados (albahaca, cebolla, cilantro, pimentón, piña) | | | |
+| Porciones (jamón, pepperoni, tocineta, aceitunas, maíz, nutella, pecorino, salchicha) | | | |
+
+**El bollo de masa es de 380 g.** Detalle en
+[`analisis-planilla-inventario.md`](analisis-planilla-inventario.md), sección 2.
 
 ### Croquis y recorrido
 

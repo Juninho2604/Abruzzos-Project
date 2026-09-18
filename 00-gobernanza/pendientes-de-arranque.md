@@ -3,7 +3,7 @@ titulo: Pendientes de arranque del repositorio
 area: Gobernanza
 responsable: Omar
 estado: vigente
-version: 1.2
+version: 1.3
 actualizado: 2026-09-18
 ---
 
@@ -142,7 +142,16 @@ El plan de acción del plan maestro ya fija las prioridades. Esta lista sigue es
 - [ ] Construir el patrón de demanda por tienda y día de semana.
 - [ ] Segunda visita al CDP en día bajo (lunes o martes), para contrastar con el viernes.
 - [ ] Visita de levantamiento al CDP Oriente con la misma guía.
-- [ ] **Antes de que Cristian solicite la API de Cetux:** pasarle la lista de lo que hay que
+- [ ] **Verificar en Xetux el código `XPBOD26050001`**, compartido por nueve bebidas distintas.
+      Si es un problema del maestro de productos, hay que abrir un SKU por presentación **antes**
+      de pedir la API.
+- [ ] Corregir la planilla de conteo del CDP según los nueve hallazgos de
+      [`analisis-planilla-inventario.md`](../02-operaciones/produccion/analisis-planilla-inventario.md).
+- [ ] Definir la lista de **productos críticos** para el inventario de apertura, con criterio
+      explícito, y sacar de Xetux un formato específico para ese conteo.
+- [ ] Confirmar si los SKU de **desperdicio** (jamón, pepperoni, tocineta) se alimentan y quién
+      los revisa.
+- [ ] **Antes de que Cristian solicite la API de Xetux:** pasarle la lista de lo que hay que
       pedir (ventas por SKU, movimientos con motivo e histórico de 12 meses hacia atrás, no
       solo saldos actuales). Ver
       [modelo de planificación](../02-operaciones/produccion/modelo-de-planificacion-de-produccion.md),

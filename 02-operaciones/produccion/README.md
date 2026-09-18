@@ -7,9 +7,10 @@ que las producciones de ambos sean las más óptimas.
 
 | Documento | Para qué sirve |
 |---|---|
-| [`modelo-de-planificacion-de-produccion.md`](modelo-de-planificacion-de-produccion.md) | El marco de optimización del CDP: la cadena de planificación, qué pedirle a la API de Cetux, la ruta por fases y los indicadores. |
+| [`modelo-de-planificacion-de-produccion.md`](modelo-de-planificacion-de-produccion.md) | El marco de optimización del CDP: la cadena de planificación, qué pedirle a la API de Xetux, la ruta por fases y los indicadores. |
 | [`guia-levantamiento-cdp.md`](guia-levantamiento-cdp.md) | Instrumento de campo para la visita de diagnóstico a un CDP. Sirve para las dos unidades. |
 | [`diagnostico-cdp-caracas.md`](diagnostico-cdp-caracas.md) | Resultado de la visita del 18/09/2026. |
+| [`analisis-planilla-inventario.md`](analisis-planilla-inventario.md) | Revisión del formato de conteo de Xetux: nueve hallazgos, qué revela el catálogo sobre el CDP y propuesta de planilla corregida. |
 
 ## Qué va aquí
 

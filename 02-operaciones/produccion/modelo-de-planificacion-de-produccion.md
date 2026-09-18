@@ -78,9 +78,9 @@ Cada flecha necesita un dato. Los que **hoy no existen** están marcados:
 
 ---
 
-## 3. Sobre la API de Cetux
+## 3. Sobre la API de Xetux
 
-Cristian planteó pedirle a Cetux la API para descargar los inventarios de todas las tiendas y
+Cristian planteó pedirle a Xetux la API para descargar los inventarios de todas las tiendas y
 que el CDP pueda verlos en tiempo real. Es la dirección correcta, con una precisión que
 conviene hacer **antes** de formular la solicitud, porque cambia lo que hay que pedir.
 
@@ -100,7 +100,7 @@ motivo es el tiempo de proceso: la masa necesita amasado y fermentación. Para c
 sistema avisa que la tienda está baja de masa, ya no hay tiempo de amasar. Planificar
 producción exige saber **qué se va a vender**, no **qué hay ahora**.
 
-### Qué pedirle a Cetux
+### Qué pedirle a Xetux
 
 Que la API exponga **movimientos y ventas**, no solo saldos:
 
@@ -117,6 +117,21 @@ Que la API exponga **movimientos y ventas**, no solo saldos:
 
 > El punto del histórico de 12 meses es el que más suele costar conseguir después y el que más
 > vale. Con un año de data se ve la estacionalidad; con dos semanas, solo se ve ruido.
+
+### Antes de pedir la API: revisar el maestro de productos
+
+En la planilla de inventario del CDP se detectó que **nueve bebidas distintas comparten un mismo
+código** (`XPBOD26050001`): agua, agua sparkling, botellón, dos sabores de Lipton y cuatro
+presentaciones de refresco. Ver
+[`analisis-planilla-inventario.md`](analisis-planilla-inventario.md), hallazgo H4.
+
+Si eso viene del maestro de productos de Xetux y no del reporte, **la API va a entregar la venta
+de bebidas agregada en un solo SKU**, y el problema de control queda igual — solo que
+automatizado y más difícil de ver.
+
+La secuencia correcta es: **primero se limpia el maestro de productos, después se pide la API.**
+Integrarse contra un maestro sucio multiplica el trabajo de corrección, porque a partir de ahí
+hay que corregir el maestro y además reprocesar todo lo que ya se descargó.
 
 ### No hay que esperar la API para arrancar
 
