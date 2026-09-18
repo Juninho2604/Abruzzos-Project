@@ -1,0 +1,23 @@
+# Responsables por área.
+#
+# GitHub usa este archivo para pedir automáticamente la revisión de la persona
+# correcta cuando alguien abre un Pull Request que toca su carpeta.
+#
+# PENDIENTE: agregar los usuarios de GitHub de Adalberto y de Cristian cuando sean
+# invitados al repositorio, y descomentar las líneas correspondientes.
+# Ver 00-gobernanza/pendientes-de-arranque.md
+
+# Por defecto, ambos project managers
+*                        @Juninho2604
+
+# Operaciones — Omar
+/02-operaciones/         @Juninho2604
+
+# Auditoría y control — Adalberto
+# /03-auditoria-y-control/   @usuario-de-adalberto
+
+# Propuestas — aprueba Cristian
+# /05-propuestas/            @usuario-de-cristian
+
+# Gobernanza — cambio de reglas, lo revisan ambos
+# /00-gobernanza/            @Juninho2604 @usuario-de-adalberto

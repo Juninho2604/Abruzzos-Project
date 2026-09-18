@@ -1,0 +1,16 @@
+# Normaliza fin de línea para que Windows y Mac no generen diferencias falsas
+* text=auto eol=lf
+
+# Binarios: no se intenta comparar línea por línea
+*.pdf   binary
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.webp  binary
+*.xlsx  binary
+*.xls   binary
+*.docx  binary
+*.doc   binary
+*.pptx  binary
+*.ppt   binary

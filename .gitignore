@@ -1,0 +1,19 @@
+# Temporales de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales de Office / LibreOffice
+~$*
+.~lock.*#
+*.tmp
+
+# Borradores personales que no van al repositorio
+*.local.md
+/borradores-personales/
+
+# Archivos pesados: van a la nube y se enlazan
+*.zip
+*.rar
+*.mp4
+*.mov
