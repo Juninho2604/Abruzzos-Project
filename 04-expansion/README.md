@@ -6,17 +6,24 @@ El plan de crecimiento de Abruzzos y el expediente de cada plaza nueva.
 
 | Documento | Contenido |
 |---|---|
-| [`plan-maestro.md`](plan-maestro.md) | El plan general: hacia dónde, en qué orden, con qué condiciones. |
+| [`plan-de-expansion.md`](plan-de-expansion.md) | Qué queda abierto: evaluación por plaza, secuencia, capacidad de abastecimiento y costo. |
 | [`plazas/`](plazas/) | Un expediente por ciudad o zona objetivo. |
+
+El **cómo** se abre una tienda (secuencia de -60 días hasta el día 90) y el **orden de
+prioridades** están en el
+[Plan Maestro de Operaciones](../02-operaciones/plan-maestro-de-operaciones.md), secciones 12
+y 13.
 
 ## Situación
 
-| Plaza | Estado |
+De **7 a 13 puntos de venta**.
+
+| | Unidades |
 |---|---|
-| Caracas, Guarenas, Guatire, Charallave | Operando |
-| Lechería | En proceso de expansión |
-| Puerto La Cruz | En proceso de expansión |
-| Resto de Venezuela | Proyección |
+| **Operando** | LPG · Santa Fe · Buenaventura · Delivery LPG · Sabana Grande · Lechería · Paseo Colón (+ CDP Caracas y CDP Oriente) |
+| **En desarrollo** | La Parada · Charallave · San Antonio de los Altos · Paraíso · Catia · Valencia |
+
+Ritmo recomendado: **oleadas de 2 tiendas**, no las 6 en simultáneo.
 
 ## Cómo se trabaja una apertura
 
@@ -27,24 +34,35 @@ Cada plaza nueva abre su expediente en [`plazas/`](plazas/) con
 [`99-plantillas/plantilla-expediente-de-plaza.md`](../99-plantillas/plantilla-expediente-de-plaza.md),
 y se trabaja en cuatro fases:
 
-1. **Evaluación** — ¿la plaza da? Mercado, competencia, ubicación, números.
-2. **Preparación** — local, permisos, equipamiento, abastecimiento, y sobre todo: **gente
-   formada**.
-3. **Apertura** — cronograma, acompañamiento en sitio, ajuste de los primeros días.
-4. **Estabilización** — la tienda opera con el mismo estándar que el resto y sin
-   acompañamiento permanente.
+y se trabaja según el cronograma de la sección 12 del plan maestro:
 
-Una tienda no se considera abierta cuando corta la cinta: se considera abierta cuando pasa
-la fase 4.
+| Momento | Fase |
+|---|---|
+| -60 a -45 días | Infraestructura |
+| -45 a -30 días | Dotación |
+| -30 a -15 días | Capacitación |
+| -15 a -7 días | Ensayo operativo |
+| -7 a -1 días | Ajustes finales |
+| Día 0 | Apertura suave (*soft opening*) |
+| Semana 1–2 | Estabilización |
+| Semana 3–4 | Apertura oficial (*grand opening*) |
+| Día 30 / 60 / 90 | Revisión post-apertura |
+
+Una tienda no se considera abierta cuando corta la cinta: se considera abierta cuando pasa la
+revisión de los 90 días con su plantilla ajustada al volumen real.
 
 ## La condición que no se negocia
 
 Antes de abrir una tienda tiene que estar resuelto lo siguiente, verificable:
 
-- [ ] Equipo **completo y formado** (ver [`../02-operaciones/capacitacion/`](../02-operaciones/capacitacion/)).
-- [ ] Gerente de tienda designado y entrenado.
-- [ ] Procedimientos operativos vigentes y entregados.
-- [ ] Abastecimiento resuelto: quién surte esa tienda y con qué frecuencia.
+- [ ] Equipo **completo y formado** por la Academia Abruzzo's, antes de pisar el piso de venta
+      (ver [`../02-operaciones/capacitacion/`](../02-operaciones/capacitacion/)).
+- [ ] Gerente y Sub Gerente de tienda designados y entrenados.
+- [ ] Categoría de volumen asignada y plantilla dimensionada según esa categoría.
+- [ ] Manual de Operaciones entregado y capacitado.
+- [ ] Abastecimiento resuelto: qué CDP la surte, con qué frecuencia y con capacidad validada.
+- [ ] Checklist OER pre-apertura aplicado por el Supervisor de Operaciones, con hallazgos
+      corregidos.
 - [ ] Controles de inventario, compras y caja montados desde el día uno.
 
 El riesgo real de una expansión rápida no es abrir de más: es abrir tiendas que replican
@@ -53,15 +71,15 @@ convierte en un problema permanente para las dos áreas del proyecto.
 
 ## Distancia geográfica
 
-Lechería y Puerto La Cruz están fuera del eje actual (Caracas — Guarenas — Guatire —
-Charallave). Esto cambia condiciones de fondo que hay que resolver **antes** de abrir, no
-después:
+El oriente ya está resuelto: Lechería y Paseo Colón operan con su propio CDP Oriente en Puerto
+La Cruz, y el plan asigna un Supervisor de Operaciones al eje Oriente/Occidente.
 
-- **Abastecimiento:** el centro de producción actual tiene un alcance logístico real. Hay
-  que definir si esas plazas se surten desde aquí, con producción local o con un esquema
-  mixto.
-- **Supervisión:** la supervisión presencial semanal deja de ser viable a esa distancia.
-  Hay que definir el esquema — visitas programadas, indicadores a distancia, supervisor
-  regional.
-- **Proveedores:** hay que levantar proveedores de la zona.
-- **Personal:** no hay equipo formado disponible en la zona. Se forma antes, aquí o allá.
+**Valencia es el caso sin resolver.** No pertenece al eje de Caracas ni al de Oriente y ningún
+CDP la cubre de forma natural. Antes de fijarle fecha hay que definir:
+
+- **Abastecimiento:** ¿se surte desde Caracas, produce en sitio como Buenaventura, o justifica
+  un tercer CDP?
+- **Supervisión:** el plan la agrupa con Lechería y Paseo Colón, que están a más de 300 km en
+  dirección contraria. Hay que revisar esa partición.
+- **Proveedores:** levantar proveedores de la zona.
+- **Personal:** no hay equipo formado disponible allá. Se forma antes.

@@ -5,6 +5,16 @@
 Todo lo que tiene que ver con que la operación del negocio se cumpla, igual, en todas las
 tiendas: los estándares, la ejecución diaria, la formación de la gente y la supervisión.
 
+## Documento de referencia
+
+| Documento | Contenido |
+|---|---|
+| [`plan-maestro-de-operaciones.md`](plan-maestro-de-operaciones.md) | **El marco de todo lo demás.** Estructura organizacional, dotación por categoría de tienda, mallas de horario, coordinaciones corporativas, estandarización de procesos, plan de aperturas, plan de acción y KPI. Preparado por Adalberto, en revisión. |
+
+Los documentos que se creen en esta carpeta deberían encajar en ese marco y citarlo, no
+contradecirlo. Si algo del plan no funciona en la práctica, se cambia el plan — no se trabaja
+en paralelo a él.
+
 | Carpeta | Qué va aquí |
 |---|---|
 | [`estandares/`](estandares/) | Cómo debe hacerse cada cosa. Los procedimientos que mandan. |
@@ -32,6 +42,11 @@ quién esté de turno:
 
 Cada documento de esta carpeta debería poder explicarse contra uno de esos ocho puntos.
 Si no aplica a ninguno, probablemente no va aquí.
+
+El plan maestro traduce esos objetivos en herramientas concretas: el **Manual de Operaciones
+(SOP)** para los puntos 1 a 4, la **Academia Abruzzo's** para los puntos 6 y 8, las **mallas de
+horario** para el 5 y el 6, y el **OER** —la auditoría de tienda sobre 100 puntos— como la
+medición que verifica los ocho.
 
 ## Cómo se trabaja un estándar
 

@@ -3,7 +3,7 @@ titulo: Perfil del negocio — Abruzzos
 area: Abruzzos
 responsable: Compartido (Omar / Adalberto)
 estado: borrador
-version: 0.1
+version: 0.2
 actualizado: 2026-09-18
 ---
 
@@ -16,27 +16,40 @@ plan de expansión a escala nacional.
 
 ## Dónde está hoy
 
-| Zona | Estado |
+**7 tiendas y 2 centros de producción**, según el
+[Plan Maestro de Operaciones](../02-operaciones/plan-maestro-de-operaciones.md) (sección 2.1).
+
+| Zona | Unidades |
 |---|---|
-| Caracas | En operación |
-| Guarenas | En operación |
-| Guatire | En operación |
-| Charallave | En operación |
-| Lechería | En proceso de expansión |
-| Puerto La Cruz | En proceso de expansión |
-| Resto de Venezuela | Proyección de expansión |
+| Caracas | LPG · Santa Fe · Sabana Grande · Delivery LPG · CDP Caracas |
+| Guarenas | Buenaventura (con producción propia en sitio) |
+| Lechería | Lechería |
+| Puerto La Cruz | Paseo Colón · CDP Oriente |
+
+Con las 6 tiendas en desarrollo (La Parada, Charallave, San Antonio de los Altos, Paraíso,
+Catia y Valencia), la red pasa a **13 puntos de venta**, sumando Valencia como plaza nueva
+fuera de los ejes actuales.
 
 El detalle por local está en [`tiendas.md`](tiendas.md).
 
 ## Modelo de operación
 
-Abruzzos opera con **tiendas** abastecidas por un **centro de producción**. Esto implica
-dos cadenas de producción que tienen que estar sincronizadas: la del centro de producción
-y la de cada tienda.
+Abruzzo's opera con **tiendas abastecidas por dos centros de producción regionales**:
 
-> **Por completar:** capacidad del centro de producción, frecuencia de despacho a
-> tiendas, qué se produce en el CP y qué se produce en tienda, canales de venta (salón,
-> para llevar, delivery, plataformas).
+- **CDP Caracas** — abastece las tiendas de la región capital.
+- **CDP Oriente (Puerto La Cruz)** — abastece Lechería y Paseo Colón.
+
+Ambos producen y despachan masa, salsas e insumos a las tiendas de su región.
+
+**Excepción:** Abruzzo's Buenaventura (Guarenas) produce en sitio, con instalación y equipo
+propios, independientes del CDP Caracas.
+
+**Canales de venta:** atención al público en sala y delivery, según la tienda. Una unidad
+—Abruzzo's Delivery LPG— opera como delivery puro, sin atención en sala, con pedidos por
+teléfono y 15 motorizados de pago 100 % variable por viaje.
+
+> **Por completar:** capacidad real de cada CDP, frecuencia de despacho a tiendas, qué se
+> produce en el CDP y qué en tienda, y si hay venta por plataformas de delivery de terceros.
 
 ## Momento actual del negocio
 
@@ -44,6 +57,11 @@ Abruzzos atraviesa un proceso de **crecimiento acelerado**. Ese es el punto cent
 proyecto: crecer sin que se pierda el control de la operación. Una cadena que abre tiendas
 más rápido de lo que estandariza sus procesos termina con tiendas que operan distinto
 entre sí, y eso se paga en calidad, en costo y en servicio.
+
+El diagnóstico del plan maestro es explícito en esto: las brechas de la operación actual
+—dotación sin estandarizar, ausencia de RR. HH. y de compras centralizadas, falta de un manual
+de operaciones y de una figura de auditoría en campo— no están resueltas, y el crecimiento
+previsto **duplica la red** sin haberlas cerrado.
 
 De ahí salen las dos líneas de trabajo de Escala:
 
@@ -60,6 +78,10 @@ operativo y la preparación de la organización para la expansión. Ver
 
 ## Por completar
 
+- [ ] **Ventas por tienda.** Es el vacío más importante: sin cifras de venta no se puede
+      validar la clasificación por volumen ni medir qué porcentaje de la venta se lleva la
+      nómina propuesta.
+- [ ] Grafía oficial de la marca: *Abruzzo's* (como en el plan maestro) o *Abruzzos*.
 - [ ] Año de fundación y trayectoria.
 - [ ] Propuesta de valor y concepto de marca.
 - [ ] Carta y líneas de producto.

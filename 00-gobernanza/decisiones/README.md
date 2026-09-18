@@ -44,3 +44,4 @@ reemplaza a la anterior, y la anterior se marca como reemplazada.
 | Fecha | Decisión |
 |---|---|
 | 2026-09-18 | [Estructura inicial del repositorio](2026-09-18-estructura-inicial-del-repositorio.md) |
+| 2026-09-18 | [El Plan Maestro de Operaciones queda como marco de referencia](2026-09-18-plan-maestro-como-marco-de-operaciones.md) |

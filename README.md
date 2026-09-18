@@ -39,6 +39,22 @@ El detalle de funciones está en
 
 ---
 
+## Documento de referencia del proyecto
+
+El [**Plan Maestro de Operaciones**](02-operaciones/plan-maestro-de-operaciones.md), preparado
+por Adalberto en septiembre de 2026, es el marco sobre el que se apoya el resto del trabajo:
+estructura organizacional, dotación por tienda, mallas de horario, estandarización de procesos,
+plan de aperturas y KPI. Está **en revisión**.
+
+Lectura corta si vas de entrada: el resumen ejecutivo y el diagnóstico (secciones 1 y 2), y el
+plan de acción por fases (sección 13).
+
+## Situación del negocio, en una línea
+
+**7 tiendas y 2 centros de producción**, con 6 tiendas nuevas en desarrollo — La Parada,
+Charallave, San Antonio de los Altos, Paraíso, Catia y Valencia — que llevarán la red a **13
+puntos de venta**.
+
 ## Cómo empezar a trabajar aquí
 
 1. Lee [`00-gobernanza/forma-de-trabajo.md`](00-gobernanza/forma-de-trabajo.md). Son 5 minutos
@@ -58,8 +74,8 @@ El detalle de funciones está en
 
 ## Estado del repositorio
 
-Inaugurado el **18 de septiembre de 2026**. La estructura está montada y las plantillas
-listas; el contenido se irá cargando sobre la marcha.
+Inaugurado el **18 de septiembre de 2026**. La estructura está montada, las plantillas listas y
+el Plan Maestro de Operaciones cargado; el resto del contenido se irá sumando sobre la marcha.
 
 Pendientes de arranque en
 [`00-gobernanza/pendientes-de-arranque.md`](00-gobernanza/pendientes-de-arranque.md).

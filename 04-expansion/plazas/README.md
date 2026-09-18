@@ -7,18 +7,33 @@ la apertura.
 ## Nombres
 
 ```
-lecheria.md
-puerto-la-cruz.md
+la-parada.md
+charallave.md
+san-antonio-de-los-altos.md
+paraiso.md
+catia.md
+valencia.md
 ```
 
 Usa [`99-plantillas/plantilla-expediente-de-plaza.md`](../../99-plantillas/plantilla-expediente-de-plaza.md).
 
-## Expedientes abiertos
+## Expedientes por abrir
 
-| Plaza | Fase | Responsable | Expediente |
-|---|---|---|---|
-| Lechería | Evaluación / Preparación | _por asignar_ | _por crear_ |
-| Puerto La Cruz | Evaluación / Preparación | _por asignar_ | _por crear_ |
+Las 6 tiendas en desarrollo según el
+[Plan Maestro de Operaciones](../../02-operaciones/plan-maestro-de-operaciones.md):
+
+| Plaza | Eje de supervisión | Fase | Responsable | Expediente |
+|---|---|---|---|---|
+| La Parada | Caracas/Centro | Evaluación | _por asignar_ | _por crear_ |
+| Charallave | Caracas/Centro | Evaluación | _por asignar_ | _por crear_ |
+| San Antonio de los Altos | Caracas/Centro | Evaluación | _por asignar_ | _por crear_ |
+| Paraíso | Caracas/Centro | Evaluación | _por asignar_ | _por crear_ |
+| Catia | Caracas/Centro | Evaluación | _por asignar_ | _por crear_ |
+| Valencia | Oriente/Occidente | Evaluación | _por asignar_ | _por crear_ |
+
+**Valencia primero.** Es la única sin esquema de abastecimiento resuelto, y esa respuesta
+condiciona su fecha de apertura y posiblemente un tercer CDP. Ver
+[`../plan-de-expansion.md`](../plan-de-expansion.md), sección 3.3.
 
 ## Para qué sirve el expediente
 
